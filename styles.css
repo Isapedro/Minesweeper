@@ -44,6 +44,12 @@ h1{
   height: 48px;
   cursor: pointer;
 }
+
+.cell-bomb{
+background-image: url("./images/bomb.png");
+background-size: contain;
+background-position: center;
+}
 .end-game-screen{
   position: absolute;
   top: 0;
@@ -80,3 +86,13 @@ font-weight: bolder;
 .hidden{
   display: none;
 }
+
+.cell-clicked{
+  background-color: rgb(157, 197, 199);
+  cursor: not-allowed;
+}
+
+.win{
+  background-color: aquamarine;
+}
+
